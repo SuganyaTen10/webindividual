@@ -1,0 +1,72 @@
+<acceptance-test-run title="User finds LogIn link" name="shouldBeAbleToNavigateToLogIn" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="0" timestamp="2018-03-05T19:36:57.902Z">
+  <user-story id="net.serenity.bdd.features.navigation.WhenUserLogIn" name="When user log in" path="net.serenity.bdd.features.navigation"/>
+  <tags>
+    <tag name="When user log in" type="story"/>
+    <tag name="StudentAdmin" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header>Parameter 1</header>
+      <header>Parameter 2</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>user1@mail.com</value>
+        <value>P@ssw0rd</value>
+      </row>
+      <row result="SUCCESS">
+        <value>user6@gmail.com</value>
+        <value>P@ssw0rd</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="User finds LogIn link" result="SUCCESS">
+    <test-group name="[1] {Parameter 1=user1@mail.com, Parameter 2=P@ssw0rd}" result="SUCCESS">
+      <test-step result="SUCCESS" duration="12226">
+        <screenshots>
+          <screenshot image="cc464b6643e2a1aae9dbfe30c536d856.png"/>
+        </screenshots>
+        <description>Is on home page</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="1649">
+        <screenshots>
+          <screenshot image="cc464b6643e2a1aae9dbfe30c536d856.png"/>
+          <screenshot image="080badfa816586fa98849043556434c3.png"/>
+        </screenshots>
+        <description>When click log in link: &lt;span class=&apos;step-parameter&apos;&gt;Log&lt;/span&gt;</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="597">
+        <screenshots>
+          <screenshot image="080badfa816586fa98849043556434c3.png"/>
+        </screenshots>
+        <description>Should see page title containing: &lt;span class=&apos;step-parameter&apos;&gt;Log in - Contoso University&lt;/span&gt;</description>
+      </test-step>
+    </test-group>
+  </test-group>
+  <test-group name="User finds LogIn link" result="SUCCESS">
+    <test-group name="[2] {Parameter 1=user6@gmail.com, Parameter 2=P@ssw0rd}" result="SUCCESS">
+      <test-step result="SUCCESS" duration="7224">
+        <screenshots>
+          <screenshot image="cc464b6643e2a1aae9dbfe30c536d856.png"/>
+        </screenshots>
+        <description>Is on home page</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="978">
+        <screenshots>
+          <screenshot image="cc464b6643e2a1aae9dbfe30c536d856.png"/>
+          <screenshot image="080badfa816586fa98849043556434c3.png"/>
+        </screenshots>
+        <description>When click log in link: &lt;span class=&apos;step-parameter&apos;&gt;Log&lt;/span&gt;</description>
+      </test-step>
+      <test-step result="SUCCESS" duration="492">
+        <screenshots>
+          <screenshot image="080badfa816586fa98849043556434c3.png"/>
+        </screenshots>
+        <description>Should see page title containing: &lt;span class=&apos;step-parameter&apos;&gt;Log in - Contoso University&lt;/span&gt;</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>
