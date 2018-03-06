@@ -56,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="131">
-              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -131,7 +131,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Sprint1" />
       </map>
     </option>
   </component>
@@ -694,7 +694,7 @@
       <workItem from="1519904623838" duration="7639000" />
       <workItem from="1519918924002" duration="16200000" />
       <workItem from="1519982864829" duration="613000" />
-      <workItem from="1519983522956" duration="30822000" />
+      <workItem from="1519983522956" duration="30906000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Gitignore to ignore output.">
       <created>1520295140824</created>
@@ -703,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520295140825</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updating Gitignore to ignore output.">
+      <created>1520295255282</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520295255282</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -733,7 +740,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83140000" />
+    <option name="totallyTimeSpent" value="83224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1069,7 +1076,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding />
         </state>
       </provider>
