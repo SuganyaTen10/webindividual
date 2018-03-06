@@ -20,7 +20,7 @@ import java.util.Collection;
 @WithTag("StudentAdmin")
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class WhenUserLogIn {
-// Testing GIT
+// Testing GIT after Gitignore updates
     @TestData
     public static Collection<Object[]> testData(){
         return Arrays.asList(new Object[][]{

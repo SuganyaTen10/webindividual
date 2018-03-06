@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aee26ef4-ad0e-4115-9001-029545570753" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/model/Category.java" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/model/Category.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhenUserLogIn.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WhenUserLogIn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="131">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -73,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -161,10 +160,10 @@
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/UserLoginPage.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/NavigatingUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/TestingGit.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/model/Category.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java" />
       </list>
     </option>
   </component>
@@ -695,8 +694,16 @@
       <workItem from="1519904623838" duration="7639000" />
       <workItem from="1519918924002" duration="16200000" />
       <workItem from="1519982864829" duration="613000" />
-      <workItem from="1519983522956" duration="30674000" />
+      <workItem from="1519983522956" duration="30822000" />
     </task>
+    <task id="LOCAL-00001" summary="Updating Gitignore to ignore output.">
+      <created>1520295140824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520295140825</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -726,7 +733,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82992000" />
+    <option name="totallyTimeSpent" value="83140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -785,6 +792,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updating Gitignore to ignore output." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating Gitignore to ignore output." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1031,14 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/TestingGit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1059,6 +1062,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding />
         </state>
       </provider>
