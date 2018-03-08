@@ -1,9 +1,8 @@
 package net.serenity.bdd.features.navigation;
 
 import net.serenity.bdd.model.Category;
-import net.serenity.bdd.steps.NavigatingUser;
+import net.serenity.bdd.steps.NavigatingUserSteps;
 import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
-import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.*;
 import net.thucydides.junit.annotations.TestData;
 import org.junit.FixMethodOrder;
@@ -15,12 +14,11 @@ import org.openqa.selenium.WebDriver;
 import java.util.Arrays;
 import java.util.Collection;
 
-
 @RunWith(SerenityParameterizedRunner.class)
 @WithTag("StudentAdmin")
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class WhenUserLogIn {
-// Testing GIT after Gitignore updates in remote 1
+
     @TestData
     public static Collection<Object[]> testData(){
         return Arrays.asList(new Object[][]{
@@ -39,7 +37,7 @@ public class WhenUserLogIn {
     }
 
     @Steps
-    NavigatingUser user;
+    NavigatingUserSteps user;
 
     @Managed(uniqueSession = true)
     WebDriver browser;
@@ -68,7 +66,7 @@ public class WhenUserLogIn {
         user.entersLoginDetails(username,password);
 
         //Then
-        user.shouldBeLoggedIn();
+        user.shouldBeLoggedIn("Log off");
     }
 
 

@@ -8,7 +8,7 @@ import net.thucydides.core.annotations.Step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class NavigatingUser {
+public class NavigatingUserSteps {
 
     StudentHomePage studentHomePage;
     UserLoginPage userLoginPage;
@@ -37,8 +37,9 @@ public class NavigatingUser {
     }
 
     @Step
-    public void shouldBeLoggedIn() {
+    public void shouldBeLoggedIn(String title) {
         studentHomePage.logoffLink();
+        assertThat(studentHomePage.getTitle().contains(title));
 
     }
 }

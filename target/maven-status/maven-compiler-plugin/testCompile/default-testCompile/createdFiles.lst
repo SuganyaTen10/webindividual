@@ -1,5 +1,7 @@
-net\serenity\bdd\model\Category.class
-net\serenity\bdd\steps\NavigatingUser.class
-net\serenity\bdd\ui\StudentHomePage.class
+net\serenity\bdd\features\navigation\StudentApi.class
+net\serenity\bdd\steps\StudentApiSteps.class
 net\serenity\bdd\ui\UserLoginPage.class
+net\serenity\bdd\steps\NavigatingUserSteps.class
+net\serenity\bdd\model\Category.class
+net\serenity\bdd\ui\StudentHomePage.class
 net\serenity\bdd\features\navigation\WhenUserLogIn.class

@@ -3,7 +3,7 @@ package net.serenity.bdd.ui;
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.FindBys;
+import org.openqa.selenium.support.PageFactory;
 
 
 public class UserLoginPage extends PageObject {
@@ -22,6 +22,5 @@ public class UserLoginPage extends PageObject {
         txtUser.sendKeys(username);
         txtPsd.sendKeys(password);
         btnLogin.click();
-
     }
 }

@@ -8,14 +8,14 @@ import net.thucydides.core.annotations.DefaultUrl;
 @DefaultUrl("http://localhost/WebIndividual")
 public class StudentHomePage extends PageObject{
 
+
     public void selectCategory(Category category) {
             find(By.partialLinkText(category.name())).click();
     }
 
-
-    public boolean logoffLink() {
+    public StudentHomePage logoffLink() {
         isElementVisible(By.linkText("Log off"));
-        return true;
+        return this;
     }
 
 
