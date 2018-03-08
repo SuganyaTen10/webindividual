@@ -1,4 +1,6 @@
 .DS_Store
 out/
 *.class
-/target/*
+**/target/
+/target/
+*/target/*
