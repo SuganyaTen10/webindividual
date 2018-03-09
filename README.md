@@ -1,4 +1,4 @@
-# webindividual - Serenity BDD for LogIn
+# WebIndividual & WebIndividualAPI - Serenity BDD
 
 Project Name - WebIndividual
 
