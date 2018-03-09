@@ -1,3 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Student api","Get Student API","SUCCESS","2018-03-09T10:03:22.377Z[Europe/London]","0.0","3.8"
-"Student api","Post Student API","SUCCESS","2018-03-09T10:03:26.385Z[Europe/London]","0.0","1.03"
+"Student api","Get Student API","SUCCESS","2018-03-09T15:45:29.676Z[Europe/London]","0.0","5.4"
+"Student api","Post Student API","SUCCESS","2018-03-09T15:45:35.199Z[Europe/London]","0.0","0.42"
+"When user log in","User finds LogIn link","SUCCESS","2018-03-09T15:46:27.287Z[Europe/London]","0.0","0.0"
+"When user log in","User Logging In","SUCCESS","2018-03-09T15:46:27.287Z[Europe/London]","0.0","0.0"

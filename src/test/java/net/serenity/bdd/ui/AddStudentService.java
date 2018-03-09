@@ -18,7 +18,7 @@ public class AddStudentService {
     }
 
     public void getStatusLog() {
-        response.then().assertThat().statusCode(200);
+        response.then().statusCode(200);
         response.then().log().all();
     }
 
@@ -40,8 +40,8 @@ public class AddStudentService {
     public void postStudent() {
         // Post the request and check the response
         post = request.post("http://localhost:54802/api/student");
-        int statusCode = response.getStatusCode();
-        post.then().assertThat().body("firstName", containsString ("Api"));
+        post.then().statusCode(201);
+//      post.then().assertThat().body("firstName", containsString ("Api"));
     }
 
 }

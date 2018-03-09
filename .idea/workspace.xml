@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aee26ef4-ad0e-4115-9001-029545570753" name="Default" comment="Added">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/AddStudentService.java" />
+    <list default="true" id="aee26ef4-ad0e-4115-9001-029545570753" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/NavigatingUserSteps.java" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/NavigatingUserSteps.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/StudentApiSteps.java" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/StudentApiSteps.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/AddStudentService.java" afterPath="$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/AddStudentService.java" />
       <change beforePath="$PROJECT_DIR$/target/com.student-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/com.student-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.csv" afterPath="$PROJECT_DIR$/target/site/serenity/3d2871ef9911e9892794a9042e262e6b82ae98dff337dd2d2e4d80be2072e38e.csv" />
@@ -52,11 +52,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NavigatingUserSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/NavigatingUserSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StudentApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/StudentApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,31 +74,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentApiSteps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentApiSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/StudentApiSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="452">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddStudentService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddStudentService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/AddStudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="435">
+              <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,11 +175,11 @@
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/GetStudentApi.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/GetStudentApiSteps.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/StudentApi.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/AddStudentService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/NavigatingUserSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/AddStudentService.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/StudentApiSteps.java" />
       </list>
     </option>
@@ -731,7 +741,7 @@
       <workItem from="1519918924002" duration="16200000" />
       <workItem from="1519982864829" duration="613000" />
       <workItem from="1519983522956" duration="31465000" />
-      <workItem from="1520433375131" duration="69799000" />
+      <workItem from="1520433375131" duration="76340000" />
     </task>
     <task id="LOCAL-00001" summary="Updating Gitignore to ignore output.">
       <created>1520295140824</created>
@@ -782,7 +792,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520551094538</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added AddStudentService.java">
+      <created>1520590145952</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1520590145952</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added AddStudentService.java">
+      <created>1520590463969</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1520590463969</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -812,7 +836,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173057000" />
+    <option name="totallyTimeSpent" value="179598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -902,7 +926,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating Gitignore to ignore output." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating Gitignore to ignore output." />
+    <MESSAGE value="Added AddStudentService.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AddStudentService.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -956,16 +981,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/site/serenity/63d18dd84639fc5693ff00401b256de3.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/UserLoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/site/serenity/capabilities.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1033,16 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1061,44 +1066,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="155" column="36" lean-forward="false" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+        <state relative-caret-position="169">
+          <caret line="153" column="38" lean-forward="false" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
           <folding>
-            <marker date="1520542352783" expanded="true" signature="4668:5018" ph="..." />
+            <marker date="1520597943016" expanded="true" signature="4668:5018" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/UserLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/WhenUserLogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/StudentHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/NavigatingUserSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="384">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/features/navigation/StudentApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/AddStudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1107,18 +1120,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/steps/StudentApiSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="452">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/serenity/bdd/ui/AddStudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="43" column="2" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
